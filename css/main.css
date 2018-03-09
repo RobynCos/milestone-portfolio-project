@@ -1,0 +1,174 @@
+/*****BASE STYLES*****/
+
+body{
+    font-family: 'Questrial', sans-serif;
+}
+
+#about, #skills, #work, #contact {
+    height: 600px;
+}
+
+/*****GRID*****/
+
+.full-width {
+    width: 1200px;
+    margin: 0;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/*****HEADER*****/
+
+header{
+  background: url('../img/pink-desk.jpg');
+  background-size: cover;
+  height: 600px;
+}
+
+header h1 {
+    color:#85a2aa;
+    font-family: 'Good Vibes';
+    font-size:72px;
+    padding:50px 0px 0px 50px;
+}
+
+header h2 {
+    clear: right;
+    color: #636d66;
+    font-family: 'Montserrat Light';
+    font-size: 42px;
+    padding-left: 50px;
+}
+
+/*****ABOUT*****/
+
+#about .full-width {
+  padding: 50px 0;
+}
+
+#about h3 {
+  color: #ebcfce;
+  font-family: 'Montserrat';
+  font-size: 36px;
+  line-height: 36px;
+  padding-left: 50px;
+}
+
+#about p {
+    color: #636d66;
+    font-size: 18px;
+    line-height: 27px;
+    padding-left: 50px;
+    overflow: hidden;
+}
+
+#about img {
+    height: 500px;
+    width: 425px;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+/***** SKILLS *****/
+
+#skills {
+    background-color: #85a2aa;
+    text-align: center;
+}
+
+#skills .full-width {
+    padding: 50px 0;
+}
+
+#skills h3 {
+  color: #ebcfce;
+  font-family: 'Montserrat';
+  font-size: 36px;
+}
+
+#skills h4 {
+    color: #636d66;
+    font-family: 'GeoSansLight';
+    font-size: 22px;
+    text-align: center;
+}
+
+/***** WORK *****/
+
+#work {
+    background-color: #ffffff;
+}
+
+#work .full-width {
+    padding: 50px 0;
+}
+
+#work img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#work h3 {
+    color: #ebcfce;
+    font-family: 'Montserrat';
+    font-size:36px;
+    text-align: center;
+}
+
+#work h4 {
+    color: #636d66;
+    font-family: 'GeoSansLight';
+    font-size:22px;
+    text-align: center;
+}
+
+/***** CONTACT *****/
+
+#contact {
+    background-color: #85a2aa;
+}
+
+#contact .full-width {
+    padding: 50px 0;
+}
+
+#contact h3 {
+    color: #ebcfce;
+    float: right;
+    font-family: 'Montserrat';
+    font-size: 36px;
+    padding-right: 50px;
+    text-align: right;
+}
+
+#contact p {
+    color: #636d66;
+    float: right;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 50px 50px 0px 0px;
+    text-align: right;
+}
+
+#contact a {
+    color: #636d66;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0px;
+}
+
+#contact img {
+    height: 500px;
+    width: 425px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
